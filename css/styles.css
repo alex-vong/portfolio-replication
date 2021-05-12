@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import 'meyers-reset.css';
+@import 'reset.css';
+
+/* Structure */
+
+body {
+	background: url('../images/bg.jpeg') no-repeat fixed center center / cover;
+	font-family: 'Merriweather', serif;
+}
+
+.big-text {
+	text-align: center;
+	padding: 50px 60px 40px 30px;
+	font-size: 40px;
+	color: #de354c;
+}
+
+.small-text {
+	font-size: 20px;
+}
+
+/* nav bar */
+nav.site-nav-bar {
+	background-color: #f8f9fa;
+}
+.inner-column {
+	max-width: 85%;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+li a {
+	flex-grow: 1;
+	color: navy;
+	font-family: helvetica;
+}
+
+/* main content */
+main {
+	height: 100vh;
+}
+main .inner-column {
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+}
+
+.about-text {
+	text-align: center;
+}
+
+.about-text p {
+	padding: 15px;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
+picture {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	/* width: 30%; */
+	max-width: 30%;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	margin-top: 20px;
+}
+
+footer {
+	background-color: #d3dadb;
+	position: fixed;
+	height: 1.5vh;
+	width: 100%;
+	bottom: 0;
+}
